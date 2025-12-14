@@ -42,8 +42,12 @@ class $AssetsImagesGen {
   /// File path: assets/images/translate.svg
   String get translate => 'assets/images/translate.svg';
 
+  /// File path: assets/images/volumehigh.png
+  AssetGenImage get volumehighPng =>
+      const AssetGenImage('assets/images/volumehigh.png');
+
   /// File path: assets/images/volumehigh.svg
-  String get volumehigh => 'assets/images/volumehigh.svg';
+  String get volumehighSvg => 'assets/images/volumehigh.svg';
 
   /// List of all assets
   List<dynamic> get values => [
@@ -56,7 +60,8 @@ class $AssetsImagesGen {
     send,
     startingImage,
     translate,
-    volumehigh,
+    volumehighPng,
+    volumehighSvg,
   ];
 }
 
